@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icecream Home – Superfood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/navbarlogo.png" alt="Superfood Logo" class="logo-img">
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <ul class="nav-menu">
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-home" class="dropdown-toggle">
+                    <label for="dropdown-home" class="dropdown-label">
+                        <a href="#" class="active">Home</a>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="dropdown-content">
+                        <div class="dropdown-image">
+                            <img src="assets/grid1.jpg" alt="Home">
+                        </div>
+                        <div class="dropdown-text">
+                            <h4>Welcome Home</h4>
+                            <p>Explore our delicious ice cream collection</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-pages" class="dropdown-toggle">
+                    <label for="dropdown-pages" class="dropdown-label">
+                        <a href="#features">Pages</a>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="dropdown-content">
+                        <div class="dropdown-image">
+                            <img src="assets/grid2.jpg" alt="Pages">
+                        </div>
+                        <div class="dropdown-text">
+                            <h4>Our Pages</h4>
+                            <p>Discover more about us</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-portfolio" class="dropdown-toggle">
+                    <label for="dropdown-portfolio" class="dropdown-label">
+                        <a href="#icecream-grid">Portfolio</a>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="dropdown-content">
+                        <div class="dropdown-image">
+                            <img src="assets/grid3.jpg" alt="Portfolio">
+                        </div>
+                        <div class="dropdown-text">
+                            <h4>Our Portfolio</h4>
+                            <p>See our amazing creations</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-blog" class="dropdown-toggle">
+                    <label for="dropdown-blog" class="dropdown-label">
+                        <a href="#blog">Blog</a>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="dropdown-content">
+                        <div class="dropdown-image">
+                            <img src="assets/new1.jpg" alt="Blog">
+                        </div>
+                        <div class="dropdown-text">
+                            <h4>Latest Blog Posts</h4>
+                            <p>Read our latest news and recipes</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-elements" class="dropdown-toggle">
+                    <label for="dropdown-elements" class="dropdown-label">
+                        <a href="#features">Elements</a>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="dropdown-content">
+                        <div class="dropdown-image">
+                            <img src="assets/grid4.jpg" alt="Elements">
+                        </div>
+                        <div class="dropdown-text">
+                            <h4>Style Elements</h4>
+                            <p>Customize your experience</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-shop" class="dropdown-toggle">
+                    <label for="dropdown-shop" class="dropdown-label">
+                        <a href="#products">Shop</a>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                    <div class="dropdown-content">
+                        <div class="dropdown-image">
+                            <img src="assets/item8.jpg" alt="Shop">
+                        </div>
+                        <div class="dropdown-text">
+                            <h4>Shop Now</h4>
+                            <p>Browse our ice cream collection</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+    </nav>
+
+    <!-- Full Screen Slider -->
+    <section class="hero-slider hello-summer-hero">
+        <img src="assets/backgroundimage1.jpg" alt="Hero Background" class="slider-bg-image">
+        <div class="slider-overlay"></div>
+        
+        <!-- Decorative Elements -->
+        <div class="hero-decorative-elements">
+            <div class="decorative-fig">🍈</div>
+        </div>
+        
+        <div class="slider-content hello-summer-content">
+            <h1 class="slider-title hello-summer-title">
+                <span class="hello-text">Hello</span>
+                <span class="summer-text">Summer</span>
+            </h1>
+            <button class="btn-view-features">VIEW FEATURES</button>
+        </div>
+        
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Ice Cream Items Grid -->
+    <section id="icecream-grid" class="icecream-grid">
+        <div class="container">
+            <div class="icecream-item">
+                <img src="assets/grid1.jpg" alt="Healthy Ice Pops" class="icecream-image">
+                <h4>Healthy Ice Pops</h4>
+                <p>Ice cream</p>
+            </div>
+            <div class="icecream-item">
+                <img src="assets/grid2.jpg" alt="Fruit Hearts" class="icecream-image">
+                <h4>Fruit Hearts</h4>
+                <p>Ice cream</p>
+            </div>
+            <div class="icecream-item">
+                <img src="assets/grid3.jpg" alt="The Best Flavor" class="icecream-image">
+                <h4>The Best Flavor</h4>
+                <p>Ice cream</p>
+            </div>
+            <div class="icecream-item">
+                <img src="assets/grid4.jpg" alt="Coconut Scoops" class="icecream-image">
+                <h4>Coconut Scoops</h4>
+                <p>Ice cream</p>
+            </div>
+            <div class="icecream-item">
+                <img src="assets/grid5.jpg" alt="Purple Delight" class="icecream-image">
+                <h4>Purple Delight</h4>
+                <p>Ice cream</p>
+            </div>
+            <div class="icecream-item">
+                <img src="assets/grid6.jpg" alt="Taste the Health" class="icecream-image">
+                <h4>Taste the Health</h4>
+                <p>Ice cream</p>
+            </div>
+            <div class="icecream-item">
+                <img src="assets/grid7.jpg" alt="Frozen Fruitstick" class="icecream-image">
+                <h4>Frozen Fruitstick</h4>
+                <p>Ice cream</p>
+            </div>
+            <div class="icecream-item">
+                <img src="assets/grid8.jpg" alt="Peach Ice Cream" class="icecream-image">
+                <h4>Peach Ice Cream</h4>
+                <p>Ice cream</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">⚙️</div>
+                    <h4>Elated settings</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium natuserror sit voluptatem accusantium.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📱</div>
+                    <h4>Smooth parallax</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium natuserror sit voluptatem accusantium.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🖼️</div>
+                    <h4>Retina ready</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium natuserror sit voluptatem accusantium.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎨</div>
+                    <h4>Amazing layouts</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium natuserror sit voluptatem accusantium.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💬</div>
+                    <h4>Fast support</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium natuserror sit voluptatem accusantium.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📱</div>
+                    <h4>100% responsive</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium natuserror sit voluptatem accusantium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Powerful Settings Section -->
+    <section class="powerful-settings">
+        <div class="container">
+            <h2>Powerful Elated Settings</h2>
+            <h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h5>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="assets/item8.jpg" alt="Gelato italiano" class="product-image">
+                    <h3>Gelato italiano</h3>
+                    <h5>$ 12.00</h5>
+                    <p>Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/item82.jpg" alt="Gelato italiano" class="product-image">
+                    <h3>Gelato italiano</h3>
+                    <h5>$ 23.00</h5>
+                    <p>Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/item821.jpg" alt="Gelato italiano" class="product-image">
+                    <h3>Gelato italiano</h3>
+                    <h5>$ 10.00</h5>
+                    <p>Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/item822.jpg" alt="Gelato italiano" class="product-image">
+                    <h3>Gelato italiano</h3>
+                    <h5>$ 22.00</h5>
+                    <p>Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/item83.jpg" alt="Gelato italiano" class="product-image">
+                    <h3>Gelato italiano</h3>
+                    <h5>$ 17.00</h5>
+                    <p>Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/item8.jpg" alt="Gelato italiano" class="product-image">
+                    <h3>Gelato italiano</h3>
+                    <h5>$ 25.00</h5>
+                    <p>Lorem ipsum dolor sit amet, feugiat delicata.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ice Cream Types Marquee -->
+    <section class="icecream-marquee">
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span class="marquee-item">Scoop</span>
+                <span class="marquee-item uppercase">CREAMERY</span>
+                <span class="marquee-item">Soft</span>
+                <span class="marquee-item uppercase">ICE CREAM SHOP</span>
+                <span class="marquee-item">Ice Cream</span>
+                <span class="marquee-item">Scoop</span>
+                <span class="marquee-item uppercase">CREAMERY</span>
+                <span class="marquee-item">Soft</span>
+                <span class="marquee-item uppercase">ICE CREAM SHOP</span>
+                <span class="marquee-item">Ice Cream</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shortcodes Section -->
+    <section class="shortcodes">
+        <div class="container">
+            <h2>Tons of Cool Shortcodes</h2>
+            <h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h5>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="assets/new1.jpg" alt="Feel the Heat of Summer">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-meta">By Anna Swindel • 20 September, 2016</p>
+                        <h3>Feel the Heat of Summer</h3>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the too charms of pleasure of the moment, so blinded by desire, tha</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="assets/new2.jpg" alt="Choose your Flavor">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-meta">By Anna Swindel • 20 September, 2016</p>
+                        <h3>Choose your Flavor</h3>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the too charms of pleasure of the moment, so blinded by desire, tha</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-image">
+                        <img src="assets/new3.jpg" alt="Our New Ice Cream Mix">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-meta">By Anna Swindel • 19 September, 2016</p>
+                        <h3>Our New Ice Cream Mix</h3>
+                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the too charms of pleasure of the moment, so blinded by desire, tha</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2>Supreme Teamwork</h2>
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</h5>
+            <button class="btn-view-features">VIEW FEATURES</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-widget">
+                    <h4>About</h4>
+                    <p>At vero eos et accusam et justo duo dolo res et ea rebum. Stet clita kasd guber gren. Aenean sollici tudin lorem quis biben dum auci elit clita.</p>
+                </div>
+                <div class="footer-widget">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +387643932728</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Eighth Avenue 487, New York</p>
+                </div>
+                <div class="footer-widget">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2017 Qode Interactive, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
